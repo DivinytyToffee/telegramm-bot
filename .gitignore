@@ -1,0 +1,4 @@
+venv/*
+*/voice_messages/*
+*/__pycache__/*
+.idea/*

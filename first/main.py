@@ -18,7 +18,7 @@ def create_dir(dir_name):
 def do_start(bot: Bot, update: Update):
     bot.send_message(
         chat_id=update.message.chat_id,
-        text="Wats up, bastard?!"
+        text="Wats up?!"
     )
 
 
@@ -26,8 +26,7 @@ def do_echo(bot: Bot, update: Update):
     text = update.message.text
     bot.send_message(
         chat_id=update.message.chat_id,
-        text=f"'{ text }' and its all? You are pathetic! "
-        f"And I know you ID - { update.message.from_user.id }. I'am coming."
+        text=f"I know you ID - { update.message.from_user.id }. I'am coming."
     )
 
 
